@@ -1,0 +1,39 @@
+Struktur Database studio-ci
+-----------------------------
+tbl_pendaftar
+-----------------------------
+id_pendaftar(pk) int(11)
+nm_pendaftar   	 varchar(50)
+dt_pendaftar   	 date
+id_waktu  	 int(11)  
+id_paket         int(11)
+st_pendaftar	 enum (Y,N)
+-----------------------------
+-----------------------------
+tbl_paket
+-----------------------------
+id_paket(pk)     int(11)
+nm_paket	 varchar(50)
+hg_paket	 int(11)
+-----------------------------
+-----------------------------
+tbl_pengguna
+-----------------------------
+id_pengguna(pk)  int(11)
+nm_pengguna    	 varchar(10)
+katasandi	 varchar(32)
+-----------------------------
+-----------------------------
+tbl_waktu
+-----------------------------
+id_waktu(pk)	 int(11)
+nm_waktu    	 varchar(10)
+-----------------------------
+ 
+	'username' => 'u243131637_root',
+	'password' => 'bNUJwGT6Dafv7wdQXX',
+	'database' => 'u243131637_bshop',
+
+        'username' => 'root',
+	'password' => '',
+	'database' => 'barbershop-ci',
